@@ -88,8 +88,10 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Demos\ReadApplicationBaseDataDemo.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <BundleResource Include="Data\dishes.json" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -121,8 +123,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>10.0.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\XamarinLocalDataAccessDemo\XamarinLocalDataAccessDemo.csproj">
-      <Project>{c9ba4cf2-5784-467e-aed5-d4445745d38c}</Project>
+      <Project>{ce7c16e4-854e-4fd3-b2dc-5e1299783732}</Project>
       <Name>XamarinLocalDataAccessDemo</Name>
     </ProjectReference>
   </ItemGroup>

@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:XamarinLocalDataAccessDemo"
              x:Class="XamarinLocalDataAccessDemo.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Button Clicked="LocalDataButton_OnClicked" Text="Read Application Base Data"></Button>
+    </StackLayout>
 
 </ContentPage>

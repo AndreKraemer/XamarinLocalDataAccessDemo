@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using XamarinLocalDataAccessDemo.Pages;
 
 namespace XamarinLocalDataAccessDemo
 {
@@ -12,6 +13,11 @@ namespace XamarinLocalDataAccessDemo
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void LocalDataButton_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ReadApplicationBaseDataDemoPage());
         }
     }
 }

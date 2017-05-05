@@ -58,11 +58,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demos\ReadApplicationBaseDataDemo.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\dishes.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
@@ -82,9 +84,14 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinLocalDataAccessDemo\XamarinLocalDataAccessDemo.csproj">
-      <Project>{c9ba4cf2-5784-467e-aed5-d4445745d38c}</Project>
+      <Project>{ce7c16e4-854e-4fd3-b2dc-5e1299783732}</Project>
       <Name>XamarinLocalDataAccessDemo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>10.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

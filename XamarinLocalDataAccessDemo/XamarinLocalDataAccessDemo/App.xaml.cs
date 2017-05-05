@@ -13,7 +13,7 @@ namespace XamarinLocalDataAccessDemo
         {
             InitializeComponent();
 
-            MainPage = new XamarinLocalDataAccessDemo.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
