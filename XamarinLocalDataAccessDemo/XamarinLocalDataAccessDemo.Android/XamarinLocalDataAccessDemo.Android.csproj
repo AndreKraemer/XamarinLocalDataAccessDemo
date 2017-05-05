@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Demos\EditApplicationBaseDataDemo.cs" />
     <Compile Include="Demos\ReadApplicationBaseDataDemo.cs" />
+    <Compile Include="Demos\SecureDataDemo.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

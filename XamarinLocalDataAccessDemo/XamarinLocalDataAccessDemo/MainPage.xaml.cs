@@ -24,5 +24,10 @@ namespace XamarinLocalDataAccessDemo
         {
             Navigation.PushAsync(new EditApplicationBaseDataDemoPage());
         }
+
+        private void SecureDataButton_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SaveSecureDataDemoPage());
+        }
     }
 }
