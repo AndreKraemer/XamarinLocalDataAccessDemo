@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using XamarinLocalDataAccessDemo.iOS.Servcies;
 using XamarinLocalDataAccessDemo.Services;
 
@@ -10,6 +11,12 @@ namespace XamarinLocalDataAccessDemo.iOS.Servcies
         public string GetDocumentsPath()
         {
             return Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        }
+
+        public string GetDatabasePath()
+        {
+            var path = Path.Combine(GetDocumentsPath(), "..", "library");
+            return path;
         }
     }
 }

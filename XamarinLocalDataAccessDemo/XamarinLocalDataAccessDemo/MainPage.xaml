@@ -8,6 +8,7 @@
         <Button Clicked="LocalDataButton_OnClicked" Text="Read Application Base Data"></Button>
         <Button Clicked="EditApplicationBaseDataButton_OnClicked" Text="Edit Application Base Data"></Button>
         <Button Clicked="SecureDataButton_OnClicked" Text="Secure Data"></Button>
+        <Button Clicked="SqliteButton_OnClicked" Text="SQLite"></Button>
     </StackLayout>
 
 </ContentPage>

@@ -11,5 +11,10 @@ namespace XamarinLocalDataAccessDemo.Droid.Services
         {
             return Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         }
+
+        public string GetDatabasePath()
+        {
+            return GetDocumentsPath();
+        }
     }
 }

@@ -1,7 +1,9 @@
-﻿namespace XamarinLocalDataAccessDemo.Models
+﻿using System.ComponentModel.DataAnnotations;
+namespace XamarinLocalDataAccessDemo.Models
 {
     public class Dish
     {
+        [Key]
         public int Id { get; set; }
 
         public string Name { get; set; }

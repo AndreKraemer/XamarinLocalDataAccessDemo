@@ -3,5 +3,6 @@
     public interface IPathService
     {
         string GetDocumentsPath();
+        string GetDatabasePath();
     }
 }

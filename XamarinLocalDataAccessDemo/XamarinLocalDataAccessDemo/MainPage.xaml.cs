@@ -29,5 +29,10 @@ namespace XamarinLocalDataAccessDemo
         {
             Navigation.PushAsync(new SaveSecureDataDemoPage());
         }
+
+        private void SqliteButton_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SqliteDemoPage());
+        }
     }
 }
