@@ -9,6 +9,7 @@
         <Button Clicked="EditApplicationBaseDataButton_OnClicked" Text="Edit Application Base Data"></Button>
         <Button Clicked="SecureDataButton_OnClicked" Text="Secure Data"></Button>
         <Button Clicked="SqliteButton_OnClicked" Text="SQLite"></Button>
+        <Button Clicked="EfCoreButton_OnClicked" Text="Ef Core"></Button>
     </StackLayout>
 
 </ContentPage>

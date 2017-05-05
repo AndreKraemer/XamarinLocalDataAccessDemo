@@ -34,5 +34,10 @@ namespace XamarinLocalDataAccessDemo
         {
             Navigation.PushAsync(new SqliteDemoPage());
         }
+
+        private void EfCoreButton_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EfCoreDemoPage());
+        }
     }
 }
