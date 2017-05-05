@@ -88,10 +88,12 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Demos\EditApplicationBaseDataDemo.cs" />
     <Compile Include="Demos\ReadApplicationBaseDataDemo.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <BundleResource Include="Data\dishes.json" />
+    <Compile Include="Servcies\PathService.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />

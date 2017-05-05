@@ -58,10 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demos\EditApplicationBaseDataDemo.cs" />
     <Compile Include="Demos\ReadApplicationBaseDataDemo.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\PathService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\dishes.json" />

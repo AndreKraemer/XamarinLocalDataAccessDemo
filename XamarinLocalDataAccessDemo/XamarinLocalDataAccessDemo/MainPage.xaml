@@ -6,6 +6,7 @@
 
     <StackLayout>
         <Button Clicked="LocalDataButton_OnClicked" Text="Read Application Base Data"></Button>
+        <Button Clicked="EditApplicationBaseDataButton_OnClicked" Text="Edit Application Base Data"></Button>
     </StackLayout>
 
 </ContentPage>

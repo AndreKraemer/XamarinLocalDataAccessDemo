@@ -19,5 +19,10 @@ namespace XamarinLocalDataAccessDemo
         {
             Navigation.PushAsync(new ReadApplicationBaseDataDemoPage());
         }
+
+        private void EditApplicationBaseDataButton_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EditApplicationBaseDataDemoPage());
+        }
     }
 }
