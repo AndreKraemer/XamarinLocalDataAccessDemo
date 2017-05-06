@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinLocalDataAccessDemo"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinLocalDataAccessDemo.iOS", "XamarinLocalDataAccessDemo\XamarinLocalDataAccessDemo.iOS\XamarinLocalDataAccessDemo.iOS.csproj", "{A120E661-7621-40CB-9681-BB8D08157205}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7CCF949-07E9-43A5-BB01-71E230CE8195}"
+	ProjectSection(SolutionItems) = preProject
+		license.txt = license.txt
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
